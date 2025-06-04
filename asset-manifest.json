@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/propuesta.github.io/static/css/main.e6c13ad2.css",
-    "main.js": "/propuesta.github.io/static/js/main.e5115740.js",
+    "main.css": "/propuesta.github.io/static/css/main.98315fa4.css",
+    "main.js": "/propuesta.github.io/static/js/main.20e03283.js",
     "static/js/453.a119c833.chunk.js": "/propuesta.github.io/static/js/453.a119c833.chunk.js",
+    "static/media/cart.png": "/propuesta.github.io/static/media/cart.a29bfddbd700ae36a3cb.png",
     "index.html": "/propuesta.github.io/index.html",
-    "main.e6c13ad2.css.map": "/propuesta.github.io/static/css/main.e6c13ad2.css.map",
-    "main.e5115740.js.map": "/propuesta.github.io/static/js/main.e5115740.js.map",
+    "main.98315fa4.css.map": "/propuesta.github.io/static/css/main.98315fa4.css.map",
+    "main.20e03283.js.map": "/propuesta.github.io/static/js/main.20e03283.js.map",
     "453.a119c833.chunk.js.map": "/propuesta.github.io/static/js/453.a119c833.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.e6c13ad2.css",
-    "static/js/main.e5115740.js"
+    "static/css/main.98315fa4.css",
+    "static/js/main.20e03283.js"
   ]
 }
