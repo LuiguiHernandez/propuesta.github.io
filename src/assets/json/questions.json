@@ -1,0 +1,68 @@
+[
+    {
+        "id": 1,
+        "question": "¿Qué fue lo primero que me hizo fijarme en ti?",
+        "options": [
+            "Tu sonrisa",
+            "Tus ojos",
+            "Tu forma de hablar",
+            "Todo tú"
+        ],
+        "response": 1
+    },
+    {
+        "id": 2,
+        "question": "Si tuvieras que describirnos con una palabra, ¿cuál sería?",
+        "options": [
+            "Magia",
+            "Destino",
+            "Amor",
+            "Risa"
+        ],
+        "response": 2
+    },
+    {
+        "id": 3,
+        "question": "¿Qué lugar sería perfecto para una cita contigo?",
+        "options": [
+            "Una cena bajo las estrellas",
+            "Un picnic en un parque",
+            "Una noche de películas",
+            "Cualquier lugar, si es contigo"
+        ],
+        "response": 3
+    },
+    {
+        "id": 4,
+        "question": "¿Cuál de estas frases describe mejor lo que siento por ti?",
+        "options": [
+            "Eres mi persona favorita",
+            "Contigo, el mundo es mejor",
+            "Me haces feliz sin hacer nada",
+            "Todo tiene sentido cuando estás tú"
+        ],
+        "response": 2
+    },
+    {
+        "id": 5,
+        "question": "Si estuviéramos en una película, ¿qué tipo sería?",
+        "options": [
+            "Comedia romántica",
+            "Fantasía",
+            "Drama con final feliz",
+            "Una historia épica de amor verdadero"
+        ],
+        "response": 0
+    },
+    {
+        "id": 6,
+        "question": "¿Estarías dispuest@ a empezar un capítulo nuevo conmigo?",
+        "options": [
+            "Sí 🩵",
+            "Por supuesto",
+            "Lo estaba esperando",
+            "¡Dímelo ya! 😍"
+        ],
+        "response": null
+    }
+]
