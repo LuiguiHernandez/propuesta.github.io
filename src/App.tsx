@@ -5,8 +5,9 @@ import CountdownComponent from './components/countdown/CountdownComponent';
 function App() {
   return (
     <div className='wrap-message'>
-      <CountdownComponent targetDate={new Date('2025-06-08T10:00:00')} />
+      
       <div className="cart">
+        <CountdownComponent targetDate={new Date('2025-06-08T10:00:00')} />
         <img src={ImageCart} />
       </div>
 
