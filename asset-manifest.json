@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/propuesta.github.io/static/css/main.62f1bfbc.css",
-    "main.js": "/propuesta.github.io/static/js/main.b0d2a2d7.js",
+    "main.css": "/propuesta.github.io/static/css/main.b2c78824.css",
+    "main.js": "/propuesta.github.io/static/js/main.22a0e45d.js",
     "static/js/453.a119c833.chunk.js": "/propuesta.github.io/static/js/453.a119c833.chunk.js",
+    "static/media/back-cart.png": "/propuesta.github.io/static/media/back-cart.b766de19e821814f8948.png",
     "static/media/cart.png": "/propuesta.github.io/static/media/cart.a29bfddbd700ae36a3cb.png",
     "index.html": "/propuesta.github.io/index.html",
-    "main.62f1bfbc.css.map": "/propuesta.github.io/static/css/main.62f1bfbc.css.map",
-    "main.b0d2a2d7.js.map": "/propuesta.github.io/static/js/main.b0d2a2d7.js.map",
+    "main.b2c78824.css.map": "/propuesta.github.io/static/css/main.b2c78824.css.map",
+    "main.22a0e45d.js.map": "/propuesta.github.io/static/js/main.22a0e45d.js.map",
     "453.a119c833.chunk.js.map": "/propuesta.github.io/static/js/453.a119c833.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.62f1bfbc.css",
-    "static/js/main.b0d2a2d7.js"
+    "static/css/main.b2c78824.css",
+    "static/js/main.22a0e45d.js"
   ]
 }
