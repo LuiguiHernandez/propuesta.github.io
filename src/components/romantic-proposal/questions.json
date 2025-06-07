@@ -56,13 +56,13 @@
     },
     {
         "id": 6,
-        "question": "¿Estarías dispuest@ a empezar un capítulo nuevo conmigo?",
+        "question": "¿Estarías dispuesta a empezar un capítulo nuevo conmigo?",
         "options": [
             "Sí 🩵",
             "Por supuesto",
             "Lo estaba esperando",
             "¡Dímelo ya! 😍"
         ],
-        "response": null
+        "response": 3
     }
 ]
