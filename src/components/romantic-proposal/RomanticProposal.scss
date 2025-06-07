@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+.wrap-romantic-proposal{
+    .hidden {
+        display: none !important;
+    }
+
+}
+.wrap-romantic-proposal {
+    min-height: 100vh;
+    color: #ffc0cb;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem;
+    font-family: "Dancing Script", cursive;
+
+    .card {
+        display: flex;
+        max-width: 600px;
+        width: 100%;
+        padding: 2rem;
+        animation: fadeIn 0.5s ease;
+        flex-direction: column;
+
+        h2 {
+            font-size: 1.75rem;
+            color: #ffb6c1;
+            margin-bottom: 1rem;
+        }
+
+        p {
+            margin: 25px;
+            font-size: 1.2rem;
+            white-space: pre-wrap;
+            color: #fefefe;
+        }
+
+        .options {
+            display: grid;
+            gap: 1rem;
+            margin-top: 1.5rem;
+
+            .button-option {
+                background: linear-gradient(to right, #ff69b4, #ff1493);
+                border: none;
+                color: white;
+                font-weight: bold;
+                padding: 0.75rem 1.5rem;
+                border-radius: 1rem;
+                cursor: pointer;
+                transition: all 0.3s ease;
+
+                &:hover {
+                    transform: translateY(-3px);
+                    background: linear-gradient(to right, #ff1493, #ff69b4);
+                    box-shadow: 0 0 15px rgba(255, 105, 180, 0.4);
+            }
+        }
+
+        .next-button {
+            margin-top: 1.5rem;
+            background-color: #ff69b4;
+            padding: 0.6rem 1.2rem;
+            border: none;
+            color: white;
+            font-weight: bold;
+            border-radius: 1rem;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+
+            &:hover {
+                background-color: #ff1493;
+            }
+        }
+    }
+
+    .final-button {
+        margin-top: 20px;
+        background: linear-gradient(to right, #ff69b4, #ff1493);
+        border: none;
+        color: white;
+        font-weight: bold;
+        padding: 0.75rem 1.5rem;
+        border-radius: 1rem;
+        cursor: pointer;
+        transition: all 0.3s ease;
+
+        &:hover {
+            transform: translateY(-3px);
+            background: linear-gradient(to right, #ff1493, #ff69b4);
+            box-shadow: 0 0 15px rgba(255, 105, 180, 0.4);
+        }
+    }
+
+    .wrap-dialog-cart {
+        img {
+            width: 100%;
+        }
+        .text {
+            position: absolute;
+            top: 0;
+            padding: 120px 50px 40px 60px;
+            font-family: "Dancing Script", cursive;
+            font-size: 18px;
+        }
+        
+    }
+    
+        .close-button {
+            margin-top: 1rem;
+            background: linear-gradient(to right, #ff69b4, #ff1493);
+            border: none;
+            color: white;
+            font-weight: bold;
+            padding: 0.6rem 1.2rem;
+            border-radius: 1rem;
+            cursor: pointer;
+            transition: all 0.3s ease;
+    
+            &:hover {
+                transform: translateY(-3px);
+                background: linear-gradient(to right, #ff1493, #ff69b4);
+                box-shadow: 0 0 15px rgba(255, 105, 180, 0.4);
+            }
+        }
+    }
+
+    @keyframes fadeIn {
+        from {
+            opacity: 0;
+            transform: translateY(20px);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .success-message {
+        text-align: center; /* Centrar el texto horizontalmente */
+        margin-top: 1rem; /* Espaciado superior */
+        font-size: 1.2rem; /* Ajustar el tamaño de la fuente */
+        color: #28a745; /* Color verde para el mensaje de éxito */
+        font-weight: bold; /* Hacer el texto más destacado */
+    }
+
+    /* Responsive styles */
+    @media (max-width: 768px) {
+        .card {
+            padding: 1.5rem;
+            border-radius: 1.5rem;
+
+            h2 {
+                font-size: 1.5rem;
+            }
+
+            p {
+                margin: 25px;
+                font-size: 1rem;
+            }
+
+            .options {
+                gap: 0.75rem;
+
+                .button-option {
+                    padding: 0.6rem 1rem;
+                    font-size: 0.9rem;
+                }
+            }
+
+            .next-button {
+                padding: 0.5rem 1rem;
+                font-size: 0.9rem;
+            }
+        }
+
+        .modal {
+            padding: 1.5rem;
+            max-width: 90%;
+        }
+
+        .modal p {
+            font-size: 1rem;
+        }
+    }
+
+    @media (max-width: 480px) {
+        .card {
+            padding: 1rem;
+            border-radius: 1rem;
+
+            h2 {
+                font-size: 1.25rem;
+            }
+
+            p {
+                margin: 25px;
+                font-size: 1.6rem;
+            }
+
+            .options {
+                gap: 0.5rem;
+
+                .button-option {
+                    padding: 0.5rem 0.75rem;
+                    font-size: 0.8rem;
+                }
+            }
+
+            .next-button {
+                padding: 0.4rem 0.8rem;
+                font-size: 0.8rem;
+            }
+        }
+
+        .modal {
+            padding: 1rem;
+        }
+
+        .modal p {
+            font-size: 0.9rem;
+        }
+    }
+}

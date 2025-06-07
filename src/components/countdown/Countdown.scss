@@ -1,4 +1,6 @@
 /* src/components/Countdown/Countdown.css */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
 
 .countdown-container {
     display: flex;
@@ -46,9 +48,9 @@
 
 .countdown-finished {
     font-size: 1.8em;
-    color: #dc3545;
+    color: #ffc0cb;
     text-align: center;
     margin-top: 50px;
-    font-family: 'Arial', sans-serif;
+    font-family: "Dancing Script", cursive;
     font-weight: bold;
 }
