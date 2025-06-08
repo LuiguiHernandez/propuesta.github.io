@@ -31,7 +31,7 @@ const calculateTimeLeft = (targetDate: Date): TimeLeft | null => {
 
 const CountdownComponent = ({ targetDate, onCountdownEnd }: CountdownProps) => {
     const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(
-        calculateTimeLeft(new Date(targetDate))
+        calculateTimeLeft(typeof targetDate === 'string' ? new Date(targetDate) : targetDate)
     );
     const [isCountingDown, setIsCountingDown] = useState<boolean>(true);
 
@@ -67,7 +67,7 @@ const CountdownComponent = ({ targetDate, onCountdownEnd }: CountdownProps) => {
 
     // Renderizado del componente
     if (!isCountingDown || !timeLeft) {
-        return <div className="countdown-finished">¡Es hora de empezar esta aventura 🩵​!</div>;
+        return <div className="countdown-finished">¡Es hora de empezar esta!</div>;
     }
 
     return (

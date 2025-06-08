@@ -64,7 +64,7 @@ Ahora solo me queda hacerte una pregunta más, una que no está en las opciones,
                     <p className="card p">{final.content}</p>
                     <button
                         className="final-button"
-                        onClick={() => handleOpenCard} // Abrir el modal
+                        onClick={handleOpenCard} // Abrir el modal
                     >
                         ¡Acepto 🩵😍!
                     </button>

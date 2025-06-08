@@ -39,7 +39,7 @@ function App() {
     <div className="cart">
       <CountdownComponent
         onCountdownEnd={() => setDisplayButton(true)}
-        targetDate={new Date("2025-06-08T10:00:00")}
+        targetDate={new Date("2025-06-07T00:42:00")}
       />
       <img src={ImageCart} alt="" />
       <div className="buttons">

@@ -18,7 +18,7 @@
     .card {
         display: flex;
         max-width: 600px;
-        width: 100%;
+        width: 90%;
         padding: 2rem;
         animation: fadeIn 0.5s ease;
         flex-direction: column;
@@ -175,7 +175,7 @@
         }
 
         .modal {
-            padding: 1.5rem;
+            padding: 1.90rem;
             max-width: 90%;
         }
 
@@ -190,8 +190,11 @@
             border-radius: 1rem;
 
             h2 {
-                font-size: 1.25rem;
+                font-size: 1.90rem;
+                display: flex;
+                align-items: center;
             }
+
 
             p {
                 margin: 25px;
