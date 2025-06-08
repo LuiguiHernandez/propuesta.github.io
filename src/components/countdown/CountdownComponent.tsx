@@ -30,15 +30,14 @@ const calculateTimeLeft = (targetDate: Date): TimeLeft | null => {
 };
 
 const CountdownComponent = ({ targetDate, onCountdownEnd }: CountdownProps) => {
-    const finalTargetDate = typeof targetDate === 'string' ? new Date(targetDate) : targetDate;
-
     const [timeLeft, setTimeLeft] = useState<TimeLeft | null>(
-        calculateTimeLeft(finalTargetDate)
+        calculateTimeLeft(typeof targetDate === 'string' ? new Date(targetDate) : targetDate)
     );
     const [isCountingDown, setIsCountingDown] = useState<boolean>(true);
 
-
     useEffect(() => {
+        const finalTargetDate = typeof targetDate === 'string' ? new Date(targetDate) : targetDate;
+
         if (isNaN(finalTargetDate.getTime())) {
             console.error("La fecha objetivo proporcionada no es válida:", targetDate);
             setTimeLeft(null);
@@ -64,7 +63,7 @@ const CountdownComponent = ({ targetDate, onCountdownEnd }: CountdownProps) => {
 
         // Función de limpieza para cuando el componente se desmonte o el efecto se re-ejecute
         return () => clearInterval(timer);
-    }, [finalTargetDate, onCountdownEnd]); // Dependencias del efecto
+    }, [targetDate, onCountdownEnd]); // Dependencias del efecto
 
     // Renderizado del componente
     if (!isCountingDown || !timeLeft) {

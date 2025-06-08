@@ -31,10 +31,10 @@
             animation: animation-cart 1s ease-in-out infinite alternate;
         }
     }
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 480px) {
         .cart {
             img {
-                width: 300px;
+                width: 400px;
             }
         }
         
@@ -72,6 +72,13 @@
         padding: 120px 50px 40px 60px;
         font-family: "Dancing Script", cursive;
         font-size: 18px;
+    }
+    @media screen and (max-width: 480px) {
+        .text {
+
+            font-size: 17px;
+        }
+        
     }
     
 }
