@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/propuesta.github.io/static/css/main.cc9107f1.css",
+    "main.css": "/propuesta.github.io/static/css/main.5421ed9b.css",
     "main.js": "/propuesta.github.io/static/js/main.f02600f8.js",
     "static/js/453.a119c833.chunk.js": "/propuesta.github.io/static/js/453.a119c833.chunk.js",
     "static/media/back-cart.png": "/propuesta.github.io/static/media/back-cart.b766de19e821814f8948.png",
     "static/media/cart.png": "/propuesta.github.io/static/media/cart.a29bfddbd700ae36a3cb.png",
     "index.html": "/propuesta.github.io/index.html",
-    "main.cc9107f1.css.map": "/propuesta.github.io/static/css/main.cc9107f1.css.map",
+    "main.5421ed9b.css.map": "/propuesta.github.io/static/css/main.5421ed9b.css.map",
     "main.f02600f8.js.map": "/propuesta.github.io/static/js/main.f02600f8.js.map",
     "453.a119c833.chunk.js.map": "/propuesta.github.io/static/js/453.a119c833.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cc9107f1.css",
+    "static/css/main.5421ed9b.css",
     "static/js/main.f02600f8.js"
   ]
 }
